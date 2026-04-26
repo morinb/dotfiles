@@ -13,10 +13,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 
 source "$DOTFILES/zsh/exports.zsh"
-source "$DOTFILES/zsh/aliases.zsh"
 source "$DOTFILES/zsh/plugins.zsh"
 
 source $ZSH/oh-my-zsh.sh
 
+source "$DOTFILES/zsh/aliases.zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
