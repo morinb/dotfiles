@@ -1,0 +1,11 @@
+brew "git"
+brew "wget"
+brew "jq"
+brew "fzf"
+brew "htop"
+
+cask "iterm2"
+cask "rectangle"
+cask "spotify"
+cask "font-hack-nerd-font"
+cask "glance-chamburr"
